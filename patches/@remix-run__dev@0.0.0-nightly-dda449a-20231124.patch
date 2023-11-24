@@ -1,0 +1,12 @@
+diff --git a/dist/vite/plugin.js b/dist/vite/plugin.js
+index 061464689f43debb8e3103e59feeaf6482a8c669..3bde57c7626248e867ed87b87abb61098a460faa 100644
+--- a/dist/vite/plugin.js
++++ b/dist/vite/plugin.js
+@@ -453,6 +453,7 @@ const remixVitePlugin = (options = {}) => {
+         ...viteUserConfig,
+         mode: viteConfig.mode,
+         server: {
++          preTransformRequests: false,
+           hmr: false
+         },
+         configFile: false,

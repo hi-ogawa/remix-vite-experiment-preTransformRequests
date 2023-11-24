@@ -1,0 +1,53 @@
+## before
+
+  vite:transform 7.25ms virtual:server-entry +0ms
+  vite:transform 5.15ms /node_modules/.pnpm/@remix-run+dev@0.0.0-nightly-dda449a-20231124_@remix-run+serve@0.0.0-nightly-dda449a-20231124_mti6rk27yzoho5bnzwyf7xqtii/node_modules/@remix-run/dev/dist/config/defaults/entry.server.node.tsx +11ms
+  vite:transform 24.84ms /app/routes/_index.tsx +21ms
+  vite:transform 27.41ms /app/routes/route.tsx +3ms
+  vite:transform 28.74ms /app/root.tsx +1ms
+  vite:transform 0.83ms virtual:remix-react-proxy +1ms
+  vite:transform 0.92ms virtual:remix-react-proxy +0ms
+  vite:transform 12.02ms /app/utils.tsx +65ms
+  vite:transform 0.17ms virtual:server-manifest +4ms
+  vite:transform 1.29ms /app/utils.tsx +23ms
+  vite:transform 8.86ms /node_modules/.pnpm/@remix-run+dev@0.0.0-nightly-dda449a-20231124_@remix-run+serve@0.0.0-nightly-dda449a-20231124_mti6rk27yzoho5bnzwyf7xqtii/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx +22ms
+  vite:transform 0.51ms virtual:inject-hmr-runtime +27ms
+  vite:transform 85.12ms /app/root.tsx +51ms
+  vite:transform 85.47ms /app/routes/_index.tsx +0ms
+  vite:transform 0.57ms virtual:remix-react-proxy +1ms
+  vite:transform 0.09ms virtual:browser-manifest +11ms
+  vite:transform 8.96ms virtual:hmr-runtime +2ms
+  vite:transform 0.92ms /@vite/client +3ms
+  vite:transform 0.17ms /node_modules/.pnpm/vite@5.0.2/node_modules/vite/dist/client/env.mjs +2ms
+  vite:transform 1.01ms /node_modules/.vite/deps/react.js?v=65f5f71d +53ms
+  vite:transform 0.72ms /node_modules/.vite/deps/react_jsx-dev-runtime.js?v=65f5f71d +1ms
+  vite:transform 0.47ms /node_modules/.vite/deps/react-dom_client.js?v=65f5f71d +1ms
+  vite:transform 251.50ms /node_modules/.vite/deps/@remix-run_react.js?v=65f5f71d +252ms
+  vite:transform 1.08ms /node_modules/.vite/deps/chunk-R6UGEKD2.js?v=8a65ed46 +4ms
+  vite:transform 9.50ms /node_modules/.vite/deps/chunk-TU7FDOKZ.js?v=8a65ed46 +11ms
+
+## after
+
+  vite:transform 8.74ms virtual:server-entry +0ms
+  vite:transform 7.34ms /node_modules/.pnpm/@remix-run+dev@0.0.0-nightly-dda449a-20231124_patch_hash=xu5ftnighaawolejqcxbv5joxa_@remix-ru_l6wv62h4ikxkky3mxm7qx6of5m/node_modules/@remix-run/dev/dist/config/defaults/entry.server.node.tsx +15ms
+  vite:transform 28.89ms /app/routes/_index.tsx +24ms
+  vite:transform 31.55ms /app/routes/route.tsx +2ms
+  vite:transform 32.45ms /app/root.tsx +1ms
+  vite:transform 0.36ms virtual:remix-react-proxy +0ms
+  vite:transform 12.65ms /app/utils.tsx +67ms
+  vite:transform 0.09ms virtual:server-manifest +4ms
+  vite:transform 0.72ms virtual:inject-hmr-runtime +38ms
+  vite:transform 7.43ms /node_modules/.pnpm/@remix-run+dev@0.0.0-nightly-dda449a-20231124_patch_hash=xu5ftnighaawolejqcxbv5joxa_@remix-ru_l6wv62h4ikxkky3mxm7qx6of5m/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx +6ms
+  vite:transform 70.30ms /app/root.tsx +70ms
+  vite:transform 70.73ms /app/routes/_index.tsx +1ms
+  vite:transform 0.67ms virtual:remix-react-proxy +0ms
+  vite:transform 9.39ms virtual:hmr-runtime +12ms
+  vite:transform 1.54ms /@vite/client +7ms
+  vite:transform 0.22ms /node_modules/.pnpm/vite@5.0.2/node_modules/vite/dist/client/env.mjs +2ms
+  vite:transform 0.09ms virtual:browser-manifest +2ms
+  vite:transform 0.95ms /node_modules/.vite/deps/react_jsx-dev-runtime.js?v=4fb84126 +54ms
+  vite:transform 0.47ms /node_modules/.vite/deps/react-dom_client.js?v=4fb84126 +1ms
+  vite:transform 0.55ms /node_modules/.vite/deps/react.js?v=4fb84126 +1ms
+  vite:transform 214.98ms /node_modules/.vite/deps/@remix-run_react.js?v=4fb84126 +216ms
+  vite:transform 0.80ms /node_modules/.vite/deps/chunk-R6UGEKD2.js?v=fa423614 +3ms
+  vite:transform 10.03ms /node_modules/.vite/deps/chunk-TU7FDOKZ.js?v=fa423614 +12ms
